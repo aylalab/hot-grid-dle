@@ -26,15 +26,19 @@ body {
   width: 100%;
 }
 
-.unit {
+.text {
   position: relative;
+}
+
+figure {
+  margin: 0;
 }
 
 .veggie {
   bottom: -.5rem;
   left: .5rem;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, .5);
   color: #fff;
   border-radius: 8px;
   padding: 1rem .5rem;
@@ -45,7 +49,7 @@ body {
   position: absolute;
   bottom: -.5rem;
   left: .5rem;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, .5);
   color: #fff;
   padding: 1rem .5rem;
   max-width: 15em;
@@ -56,7 +60,7 @@ body {
   bottom: -.5rem;
   left: .5rem;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, .5);
   color: #fff;
   max-width: 15em;
   border-radius: 8px;
